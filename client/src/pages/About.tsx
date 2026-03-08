@@ -4,7 +4,7 @@
  */
 import { motion } from "framer-motion";
 import { useInView } from "@/hooks/useInView";
-import { Code2, Globe, BookOpen, Briefcase } from "lucide-react";
+import { Code2, Globe, BookOpen, Briefcase, BotIcon } from "lucide-react";
 
 const PROFILE_PIC = "/Images/PhilPortrait_1.jpg";
 
@@ -28,6 +28,11 @@ const highlights = [
     icon: Briefcase,
     title: "Full-Stack Capable",
     description: "While backend is my foundation, I've built complete applications spanning frontend, backend, and database layers. I also have the tools and skillset to work on automation workflows to make a company more efficient and profitable. I have confidence that I can deliver on any type of project when given the proper resources.",
+  },
+  {
+    icon: BotIcon,
+    title: "Self Taught AI Automation Specialist",
+    description: "Passionate & Avid learning of AI Automation tools and technologies to make a company more efficient and profitable. Self taught in Blockchain, Fintech, & AI Automation. I have a strong passion for blockchain technologies, utiliing AI tools and automation Fintech.",
   },
 ];
 
@@ -93,7 +98,7 @@ export default function About() {
             </p>
             <p className="text-muted-foreground leading-relaxed">
               I am a full stack web developer specializing more in backend development,
-              but having a passion for front end technologies. Throughout my
+              while also having a passion for front end technologies. Throughout my
               career, I have adapted my skills through a constant continual learning
               mentality. My foundation is in C# ASP.NET with SQL databases, and I
               have expanded into Java Spring Boot, Angular, React, and the broader

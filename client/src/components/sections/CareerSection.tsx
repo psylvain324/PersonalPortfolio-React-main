@@ -51,11 +51,14 @@ export default function CareerSection() {
             </h3>
             <p className="text-muted-foreground leading-relaxed">
               The majority of my career I have worked primarily as a backend
-              developer in ASP.NET in C# with SQL databases. I was originally
+              developer in ASP.NET MVC/Core in C# with SQL databases. I was originally
               educated and trained in this technology and it remains amongst
               my favorite technologies to implement to this day. I have kept
               up to date with ASP.NET Core and love the changes that have come
               and are coming in the upcoming framework releases.
+              I have a strong passion for backend development and love the challenge of building scalable and efficient systems.
+              While I have been working full time as a more backend heavy full stack developer, 
+              I have also been working on my own projects to expand my skillset and knowledge.
             </p>
           </motion.div>
 
@@ -70,12 +73,12 @@ export default function CareerSection() {
               Global Experience
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Most recently I have worked in Java Spring Boot and Angular. I
-              worked abroad in Malaysia — which was an amazing experience — as
-              well as in Pittsburgh, St. Petersburg, and Boston. I have continued to develop my
-              existing skillset while branching into the JavaScript world with
-              Angular and React. I have a great passion for Technology, Travel,
-              and meeting new people.
+              Recently I have worked in other backend technologies such as Java Spring Boot, Kotlin, with Angular.   
+              I worked abroad in Malaysia/Singapore — which was an amazing experience — as
+              well as in Pittsburgh, the Boston area, and most recently in St Petersburg/Tampa, Florida. 
+              I have continued to develop my existing skillset while branching into the JavaScript world with Angular and React. 
+              Recently I have developed a strong passion for AI Automation and have been self teaching myself the tools and technologies to make companies more efficient and profitable.
+              I have a great passion for Technology, Travel, Blockchain/Fintech, and meeting new people.
             </p>
           </motion.div>
         </div>
@@ -87,9 +90,8 @@ export default function CareerSection() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-8 py-2 flex flex-row items-center justify-center gap-4 sm:gap-8 w-full max-w-5xl mx-auto"
         >
-          <span className="font-mono text-xs text-primary/70 uppercase tracking-widest">Destinations</span>
+          <span className="font-mono text-xs text-primary/70 uppercase tracking-widest">Destinations I've Worked In</span>
           <span className="hidden sm:inline text-border/50">—</span>
-          <p className="text-foreground/90 font-heading font-semibold text-lg sm:text-xl">Where I&apos;ve Worked &amp; Traveled</p>
         </motion.div>
 
         {/* Subtle separator */}

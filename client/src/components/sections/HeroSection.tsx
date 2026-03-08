@@ -61,10 +61,10 @@ export default function HeroSection() {
             className="mt-6 md:mt-8"
           >
             <p className="text-2xl md:text-3xl text-foreground/80 font-light">
-              Web Developer &amp; Designer
+              Web Developer &amp; Automation Specialist &amp; Designer
             </p>
             <p className="text-lg md:text-xl text-muted-foreground mt-2 font-mono">
-              ASP.NET | Angular | Java Spring Boot
+              ASP.NET | Angular | Java Spring Boot | React | AI Automation | Blockchain
               <span className="cursor-blink text-primary ml-1">|</span>
             </p>
           </motion.div>
