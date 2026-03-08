@@ -20,8 +20,9 @@ export default function Home() {
       <div className="gradient-divider" />
       <ResumeSection />
       <div className="gradient-divider" />
+      {/* TODO: Add blog section
       <BlogSection />
-      <div className="gradient-divider" />
+      <div className="gradient-divider" /> */}
       <TechStackSection />
       <div className="gradient-divider" />
       <ContactCTA />

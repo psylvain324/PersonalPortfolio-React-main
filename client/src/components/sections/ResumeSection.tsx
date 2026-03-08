@@ -64,10 +64,10 @@ export default function ResumeSection() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="/resume.pdf"
+                href="/Images/Resume - Phillip Sylvain.docx"
                 target="_blank"
                 rel="noopener noreferrer"
-                download="Phillip-Sylvain-Resume.pdf"
+                download="Resume - Phillip Sylvain.docx"
                 className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium bg-primary text-primary-foreground rounded-sm hover:bg-primary/90 transition-all duration-200"
               >
                 <Download className="w-4 h-4" />

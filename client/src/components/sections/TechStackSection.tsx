@@ -51,6 +51,24 @@ const techStack: TechItem[] = [
     skills: "JSX, Hooks, Material UI, Redux, Vite, Tailwind CSS",
     icon: "⚛️",
   },
+  {
+    name: "AI Automation",
+    color: "from-violet-500/20 to-violet-900/10",
+    skills: "Manus, ElevenLabs, Workflow Optimization, AI Integration, Data Analysis, Prompt Engineering, AI Literacy",
+    icon: "🤖",
+  },
+  {
+    name: "Marketing & Project Management",
+    color: "from-blue-500/20 to-blue-900/10",
+    skills: "HubSpot, Google Analytics, Jira, Asana, Microsoft Teams, Slack, Figma, Canva, Google Ads",
+    icon: "📊",
+  },
+  {
+    name: "Financial & Blockchain",
+    color: "from-emerald-500/20 to-emerald-900/10",
+    skills: "Crypto Integration, Investing, Blockchain Technologies, Decentralized Automation, Fetch.ai, Market Analysis, Circle, Stablecoins",
+    icon: "₿",
+  },
 ];
 
 export default function TechStackSection() {
